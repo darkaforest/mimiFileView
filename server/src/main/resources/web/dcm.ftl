@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
     <title>DCM预览</title>
     <#include "*/commonHeader.ftl">
-     <script src="js/base64.min.js" type="text/javascript"></script>
+     <script src="proxyfile-preview/js/base64.min.js" type="text/javascript"></script>
 </head>
 	<style>
      .container{
@@ -31,15 +31,15 @@
     <div class="container" id="cornerstoneViewport">
 
         </div>
-        <script src="dcm/cornerstone.js"></script>
-        <script src="dcm/cornerstoneMath.js"></script>
-        <script src="dcm/cornerstoneTools.js"></script>
-        <script src="dcm/dicomParser.js"></script>
-        <script src="dcm/cornerstoneWADOImageLoader.bundle.min.js"></script>
-        <script src="dcm/hammer.min.js"></script>
-        <script src="dcm/initCornerstone.js"></script>
-        <script  src="dcm/react.development.js" ></script>
-        <script src="dcm/react-dom.development.js"></script>
+        <script src="proxyfile-preview/dcm/cornerstone.js"></script>
+        <script src="proxyfile-preview/dcm/cornerstoneMath.js"></script>
+        <script src="proxyfile-preview/dcm/cornerstoneTools.js"></script>
+        <script src="proxyfile-preview/dcm/dicomParser.js"></script>
+        <script src="proxyfile-preview/dcm/cornerstoneWADOImageLoader.bundle.min.js"></script>
+        <script src="proxyfile-preview/dcm/hammer.min.js"></script>
+        <script src="proxyfile-preview/dcm/initCornerstone.js"></script>
+        <script  src="proxyfile-preview/dcm/react.development.js" ></script>
+        <script src="proxyfile-preview/dcm/react-dom.development.js"></script>
         <script>
             "use strict";
 
@@ -51,7 +51,7 @@
 
             window.process = process;
         </script>
-        <script src="dcm/index.umd.js"></script>
+        <script src="proxyfile-preview/dcm/index.umd.js"></script>
 
         <script>
           var url = '${finalUrl}';

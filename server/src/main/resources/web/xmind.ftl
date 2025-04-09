@@ -5,7 +5,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <#include "*/commonHeader.ftl">
-<script src="js/base64.min.js" type="text/javascript"></script>
+<script src="proxyfile-preview/js/base64.min.js" type="text/javascript"></script>
 <#if currentUrl?contains("http://") || currentUrl?contains("https://")>
     <#assign finalUrl="${currentUrl}">
     <#elseif currentUrl?contains("ftp://") >
@@ -18,7 +18,7 @@
 <div id="mount">
 </div>
 
-<script src="xmind/xmind.js"></script>
+<script src="proxyfile-preview/xmind/xmind.js"></script>
 <script type="text/javascript">
     var url = '${finalUrl}';
     var baseUrl = '${baseUrl}'.endsWith('/') ? '${baseUrl}' : '${baseUrl}' + '/';

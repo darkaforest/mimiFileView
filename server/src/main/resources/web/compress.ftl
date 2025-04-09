@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8"/>
     <title>${file.name}压缩包预览</title>
-   <script src="js/jquery-3.6.1.min.js"></script>
+   <script src="proxyfile-preview/js/jquery-3.6.1.min.js"></script>
      <#include "*/commonHeader.ftl">
-   <script src="js/base64.min.js" type="text/javascript"></script>
-   <link href="css/zTreeStyle.css" rel="stylesheet" type="text/css">
-  <script type="text/javascript" src="js/jquery.ztree.core.js"></script>
+   <script src="proxyfile-preview/js/base64.min.js" type="text/javascript"></script>
+   <link href="proxyfile-preview/css/zTreeStyle.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="proxyfile-preview/js/jquery.ztree.core.js"></script>
         <style type="text/css">
         body {
             background-color: #404040;

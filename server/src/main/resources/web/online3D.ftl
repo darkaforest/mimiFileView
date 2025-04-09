@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
     <title>${file.name}3D预览</title>
-	  <script src="js/base64.min.js" type="text/javascript"></script>
+	  <script src="proxyfile-preview/js/base64.min.js" type="text/javascript"></script>
     <#include "*/commonHeader.ftl">
 	
 </head>

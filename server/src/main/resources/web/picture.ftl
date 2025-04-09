@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <title>图片预览</title>
     <#include "*/commonHeader.ftl">
-    <link rel="stylesheet" href="css/viewer.min.css">
-    <script src="js/viewer.min.js"></script>
+    <link rel="stylesheet" href="proxyfile-preview/css/viewer.min.css">
+    <script src="proxyfile-preview/js/viewer.min.js"></script>
     <style>
         body {
             background-color: #404040;

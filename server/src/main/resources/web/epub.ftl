@@ -6,10 +6,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
     <#include "*/commonHeader.ftl">
-   <script src="js/base64.min.js" type="text/javascript"></script>
-   <script src="js/jszip.min.js"></script>
-   <script src="epub/epub.js"></script>
-  <link rel="stylesheet" type="text/css" href="epub/examples.css">
+   <script src="proxyfile-preview/js/base64.min.js" type="text/javascript"></script>
+   <script src="proxyfile-preview/js/jszip.min.js"></script>
+   <script src="proxyfile-preview/epub/epub.js"></script>
+  <link rel="stylesheet" type="text/css" href="proxyfile-preview/epub/examples.css">
 </head>
 	<#if currentUrl?contains("http://") || currentUrl?contains("https://") || currentUrl?contains("file://")>
     <#assign finalUrl="${currentUrl}">

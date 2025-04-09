@@ -5,11 +5,11 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>mimiFileView版本记录</title>
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/theme.css"/>
-    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="icon" href="./proxyfile-preview/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="proxyfile-preview/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="proxyfile-preview/css/theme.css"/>
+    <script type="text/javascript" src="proxyfile-preview/js/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="proxyfile-preview/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body>

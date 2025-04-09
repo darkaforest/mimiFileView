@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <#include "*/commonHeader.ftl">
-      <script src="js/base64.min.js" type="text/javascript"></script>
+      <script src="proxyfile-preview/js/base64.min.js" type="text/javascript"></script>
       	<#if currentUrl?contains("http://") || currentUrl?contains("https://") || currentUrl?contains("file://")>
     <#assign finalUrl="${currentUrl}">
   <#elseif currentUrl?contains("ftp://") >
@@ -27,13 +27,13 @@
 <div id="diagram"></div>
 
 <!-- required modeler styles -->
-<link rel="stylesheet" href="bpmn/diagram-js.css">
-<link rel="stylesheet" href="bpmn/bpmn-js.css">
-<link rel="stylesheet" href="bpmn/css/bpmn.css">
+<link rel="stylesheet" href="proxyfile-preview/bpmn/diagram-js.css">
+<link rel="stylesheet" href="proxyfile-preview/bpmn/bpmn-js.css">
+<link rel="stylesheet" href="proxyfile-preview/bpmn/css/bpmn.css">
 
 <!-- modeler distro -->
-<script src="bpmn/bpmn-modeler.development.js"></script>
-<script src="js/jquery-3.6.1.min.js"></script>
+<script src="proxyfile-preview/bpmn/bpmn-modeler.development.js"></script>
+<script src="proxyfile-preview/js/jquery-3.6.1.min.js"></script>
 
 <!-- app -->
 <script>

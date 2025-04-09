@@ -1,9 +1,9 @@
 <#setting classic_compatible=true>
-<link rel="icon" href="./favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
-<script src="js/jquery-3.6.1.min.js" type="text/javascript"></script>
-<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="js/bootbox.min.js" type="text/javascript"></script>
+<link rel="icon" href="./proxyfile-preview/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="proxyfile-preview/bootstrap/css/bootstrap.min.css"/>
+<script src="proxyfile-preview/js/jquery-3.6.1.min.js" type="text/javascript"></script>
+<script src="proxyfile-preview/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="proxyfile-preview/js/bootbox.min.js" type="text/javascript"></script>
 <script>
     // 中文环境
     var locale_zh_CN = {

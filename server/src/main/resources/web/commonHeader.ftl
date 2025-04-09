@@ -1,6 +1,6 @@
 <#setting classic_compatible=true>
-<link rel="icon" href="./favicon.ico" type="image/x-icon">
-<script src="js/watermark.js" type="text/javascript"></script>
+<link rel="icon" href="./proxyfile-preview/favicon.ico" type="image/x-icon">
+<script src="proxyfile-preview/js/watermark.js" type="text/javascript"></script>
 
 <script>
     /**

@@ -33,7 +33,7 @@
 
 <body>
 <div class="container">
-    <img src="images/sorry.jpg"/>
+    <img src="proxyfile-preview/images/sorry.jpg"/>
     <span>
         该(${fileType})文件，系统暂不支持在线预览，具体原因如下：
         <p style="color: red;">${msg}</p>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
     <title>${file.name}OFD预览</title>
     <#include "*/commonHeader.ftl">
-    <script src="js/base64.min.js" type="text/javascript"></script>
+    <script src="proxyfile-preview/js/base64.min.js" type="text/javascript"></script>
 </head>
 <body>
 <#if currentUrl?contains("http://") || currentUrl?contains("https://")>

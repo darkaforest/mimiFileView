@@ -5,9 +5,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <#include "*/commonHeader.ftl">
-    <script src="js/jquery-3.6.1.min.js" type="text/javascript"></script>
-    <script src="js/svg-pan-zoom.js"></script>
-    <script src="js/base64.min.js"></script>
+    <script src="proxyfile-preview/js/jquery-3.6.1.min.js" type="text/javascript"></script>
+    <script src="proxyfile-preview/js/svg-pan-zoom.js"></script>
+    <script src="proxyfile-preview/js/base64.min.js"></script>
     <#if currentUrl?contains("http://") || currentUrl?contains("https://") || currentUrl?contains("ftp://")>
         <#assign finalUrl="${currentUrl}">
     <#else>

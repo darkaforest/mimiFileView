@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <#include "*/commonHeader.ftl">
-    <link href="pptx/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="pptx/idocv/idocv_common.min.css" rel="stylesheet">
-    <link href="pptx/jquery.contextMenu.css" rel="stylesheet">
+    <link href="proxyfile-preview/pptx/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="proxyfile-preview/pptx/idocv/idocv_common.min.css" rel="stylesheet">
+    <link href="proxyfile-preview/pptx/jquery.contextMenu.css" rel="stylesheet">
     <#--  手机端预览兼容  -->
     <script type="text/javascript">
         var windowWidth = document.documentElement.clientWidth;
@@ -27,7 +27,7 @@
 
 <div class="loading-mask" style="display: block;">
     <div class="loading-zone">
-        <div class="text"><img src="pptx/img/loader_indicator_lite.gif">加载中...</div>
+        <div class="text"><img src="proxyfile-preview/pptx/img/loader_indicator_lite.gif">加载中...</div>
     </div>
 </div>
 
@@ -80,11 +80,11 @@
 </div>
 
 <!-- JavaSript ================================================== -->
-<script src="js/jquery-3.6.1.min.js"></script>
-<script src="pptx/jquery.contextMenu.js?v=11.2.5_20210128"></script>
-<script src="pptx/idocv/idocv_common.min.js"></script>
-<script src="pptx/jquery.mobile-events.min.js"></script>
-<script src="pptx/ppt.js"></script>
+<script src="proxyfile-preview/js/jquery-3.6.1.min.js"></script>
+<script src="proxyfile-preview/pptx/jquery.contextMenu.js?v=11.2.5_20210128"></script>
+<script src="proxyfile-preview/pptx/idocv/idocv_common.min.js"></script>
+<script src="proxyfile-preview/pptx/jquery.mobile-events.min.js"></script>
+<script src="proxyfile-preview/pptx/ppt.js"></script>
 <script>
     var resultData = {
         "code": 1,

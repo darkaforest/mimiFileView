@@ -4,13 +4,13 @@
 <meta charset="UTF-8" />
 <title>${file.name}预览</title>
 <#include "*/commonHeader.ftl">
-<link rel="stylesheet" href="xspreadsheet/xspreadsheet.css"/>
-<script src="xspreadsheet/xspreadsheet.js"></script>
-<script src="xspreadsheet/is-utf8.js"></script>
-<script src="xspreadsheet/xlsx.full.min.js"></script>
-<script src="xspreadsheet/xlsxspread.min.js"></script>
-<script src="xspreadsheet/zh-cn.js"></script>
-<script src="js/base64.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="proxyfile-preview/xspreadsheet/xspreadsheet.css"/>
+<script src="proxyfile-preview/xspreadsheet/xspreadsheet.js"></script>
+<script src="proxyfile-preview/xspreadsheet/is-utf8.js"></script>
+<script src="proxyfile-preview/xspreadsheet/xlsx.full.min.js"></script>
+<script src="proxyfile-preview/xspreadsheet/xlsxspread.min.js"></script>
+<script src="proxyfile-preview/xspreadsheet/zh-cn.js"></script>
+<script src="proxyfile-preview/js/base64.min.js" type="text/javascript"></script>
 </head>
 	<#if csvUrl?contains("http://") || csvUrl?contains("https://")>
     <#assign finalUrl="${csvUrl}">

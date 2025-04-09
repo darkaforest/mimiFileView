@@ -7,10 +7,10 @@
     <link rel='stylesheet' href='xlsx/plugins/plugins.css' />
     <link rel='stylesheet' href='xlsx/css/luckysheet.css' />
     <link rel='stylesheet' href='xlsx/assets/iconfont/iconfont.css' />
-    <script src="xlsx/plugins/js/plugin.js"></script>
-    <script src="xlsx/luckysheet.umd.js"></script>
-    <script src="js/watermark.js" type="text/javascript"></script>
-    <script src="js/base64.min.js" type="text/javascript"></script>
+    <script src="proxyfile-preview/xlsx/plugins/js/plugin.js"></script>
+    <script src="proxyfile-preview/xlsx/luckysheet.umd.js"></script>
+    <script src="proxyfile-preview/js/watermark.js" type="text/javascript"></script>
+    <script src="proxyfile-preview/js/base64.min.js" type="text/javascript"></script>
 </head>
 <#if pdfUrl?contains("http://") || pdfUrl?contains("https://") || pdfUrl?contains("ftp://")>
     <#assign finalUrl="${pdfUrl}">
@@ -66,7 +66,7 @@
 </div>
 <div id="luckysheet" style="margin:0px;padding:0px;position:absolute;width:100%;left: 0px;top: 20px;bottom: 0px;outline: none;"></div>
 
-<script src="xlsx/luckyexcel.umd.js"></script>
+<script src="proxyfile-preview/xlsx/luckyexcel.umd.js"></script>
 <script>
     function tiaozhuan(){
         var test = window.location.href;

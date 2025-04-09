@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>PDF图片预览</title>
     <#include "*/commonHeader.ftl">
-    <script src="js/lazyload.js"></script>
+    <script src="proxyfile-preview/js/lazyload.js"></script>
     <style>
         body {
             background-color: #404040;
@@ -33,12 +33,12 @@
 <div class="container">
     <#list imgUrls as img>
         <div class="img-area">
-            <img class="my-photo" alt="loading"  data-src="${img}" src="images/loading.gif">
+            <img class="my-photo" alt="loading"  data-src="${img}" src="proxyfile-preview/images/loading.gif">
         </div>
     </#list>
 </div>
 <#if "false" == switchDisabled>
-    <img src="images/pdf.svg" width="48" height="48" style="position: fixed; cursor: pointer; top: 40%; right: 48px; z-index: 999;" alt="使用PDF预览" title="使用PDF预览" onclick="changePreviewType('pdf')"/>
+    <img src="proxyfile-preview/images/pdf.svg" width="48" height="48" style="position: fixed; cursor: pointer; top: 40%; right: 48px; z-index: 999;" alt="使用PDF预览" title="使用PDF预览" onclick="changePreviewType('pdf')"/>
 </#if>
 <script>
     window.onload = function () {

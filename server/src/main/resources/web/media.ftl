@@ -3,17 +3,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>${file.name}播放器</title>
-		<link type="text/css" rel="stylesheet" href="ckplayer/css/ckplayer.css" />
+		<link type="text/css" rel="stylesheet" href="proxyfile-preview/ckplayer/css/ckplayer.css" />
 		<#if "${file.suffix?lower_case}" == "m3u8" >
-		<script type="text/javascript" src="ckplayer/hls.js/hls.min.js"></script>
+		<script type="text/javascript" src="proxyfile-preview/ckplayer/hls.js/hls.min.js"></script>
 	 <#elseif "${file.suffix?lower_case}" == "flv">
-		<script type="text/javascript" src="ckplayer/flv.js/flv.min.js"></script>
+		<script type="text/javascript" src="proxyfile-preview/ckplayer/flv.js/flv.min.js"></script>
 			<#elseif "${file.suffix?lower_case}" == "ts">
-			<script type="text/javascript" src="ckplayer/mpegts.js/mpegts.js"></script>
+			<script type="text/javascript" src="proxyfile-preview/ckplayer/mpegts.js/mpegts.js"></script>
             <#elseif "${file.suffix?lower_case}" == "mpd">
-			<script type="text/javascript" src="ckplayer/js/dash.all.min.js"></script>
+			<script type="text/javascript" src="proxyfile-preview/ckplayer/js/dash.all.min.js"></script>
 		</#if>
-	<script type="text/javascript" src="ckplayer/js/ckplayer.min.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="proxyfile-preview/ckplayer/js/ckplayer.min.js" charset="UTF-8"></script>
 		<#include "*/commonHeader.ftl">
 		<style>
 			.adpause{
