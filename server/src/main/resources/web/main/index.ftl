@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>kkFileView演示首页</title>
+    <title>mimiFileView演示首页</title>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/loading.css"/>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
@@ -64,13 +64,12 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="https://kkview.cn" target='_blank'>kkFileView</a>
+            <a class="navbar-brand" href="https://kkview.cn" target='_blank'>mimiFileView</a>
         </div>
         <ul class="nav navbar-nav">
             <li class="active"><a href="./index">首页</a></li>
             <li><a href="./integrated">接入说明</a></li>
             <li><a href="./record">版本发布记录</a></li>
-            <li><a href="./sponsor">赞助开源</a></li>
         </ul>
     </div>
 </nav>

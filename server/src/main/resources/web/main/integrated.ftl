@@ -17,13 +17,12 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="https://kkview.cn" target='_blank'>kkFileView</a>
+            <a class="navbar-brand" href="https://kkview.cn" target='_blank'>mimiFileView</a>
         </div>
         <ul class="nav navbar-nav">
             <li><a href="./index">首页</a></li>
             <li class="active"><a href="./integrated">接入说明</a></li>
             <li><a href="./record">版本发布记录</a></li>
-            <li><a href="./sponsor">赞助开源</a></li>
         </ul>
     </div>
 </nav>
@@ -32,7 +31,7 @@
     <#--  接入说明  -->
     <div class="page-header">
         <h1>接入说明</h1>
-        本文档针对前端项目接入 kkFileView 的说明，并假设 kkFileView 的服务地址为：http://127.0.0.1:8012。
+        本文档针对前端项目接入 mimiFileView 的说明，并假设 mimiFileView 的服务地址为：http://127.0.0.1:8012。
     </div>
     <div class="well">
 

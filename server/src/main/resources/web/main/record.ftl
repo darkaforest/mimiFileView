@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>kkFileView版本记录</title>
+    <title>mimiFileView版本记录</title>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/theme.css"/>
@@ -17,13 +17,12 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="https://kkview.cn" target='_blank'>kkFileView</a>
+            <a class="navbar-brand" href="https://kkview.cn" target='_blank'>mimiFileView</a>
         </div>
         <ul class="nav navbar-nav">
             <li><a href="./index">首页</a></li>
             <li><a href="./integrated">接入说明</a></li>
             <li class="active"><a href="./record">版本发布记录</a></li>
-            <li><a href="./sponsor">赞助开源</a></li>
         </ul>
     </div>
 </nav>
@@ -288,7 +287,7 @@
                 5.  新增 wps 文档预览支持<br>
                 6.  新增 stars 增长趋势图<br>
                 7.  新增启动完成，打印启动耗时、演示页访问地址<br>
-                8.  新增 kkFIleView 的 banner 信息<br>
+                8.  新增 mimiFileView 的 banner 信息<br>
                 9.  优化启动脚本<br>
                 10. 优化项目结构、优化 maven 结构<br>
                 11. 移除多余的 repositories 配置，移除针对 tomcat 的配置<br>
@@ -338,7 +337,7 @@
                 1. 架构模块调整,大量的代码重构，代码质量提升N个等级，欢迎品鉴<br>
                 2. 增强XML文件预览效果，新增XML文档数结构预览<br>
                 3. 新增markdown文件预览支持，预览支持md渲染和源文本切换支持<br>
-                4. 切换底层web server为jetty，解决这个issue：<a href="https://github.com/kekingcn/kkFileView/issues/168">#issues/168</a><br>
+                4. 切换底层web server为jetty，解决这个issue：<a href="https://github.com/kekingcn/mimiFileView/issues/168">#issues/168</a><br>
                 5. 引入cpdetector，解决文件编码识别问题<br>
                 6. url采用base64+urlencode双编码，彻底解决各种奇葩文件名预览问题<br>
                 7. 新增配置项office.preview.switch.disabled，控制offic文件预览切换开关<br>
@@ -388,7 +387,7 @@
                 13. 修复转换文件队列addTask异常<br>
                 14. 修复其他已经问题<br>
                 15. 官网建设：<a href="https://kkview.cn">https://kkview.cn</a><br>
-                16. 官方Docker镜像仓库建设：<a href="https://hub.docker.com/r/keking/kkfileview">https://hub.docker.com/r/keking/kkfileview</a>
+                16. 官方Docker镜像仓库建设：<a href="https://hub.docker.com/r/keking/mimiFileView">https://hub.docker.com/r/keking/mimiFileView</a>
             </div>
         </div>
     </div>
@@ -424,7 +423,7 @@
             <div>
                 1. 大文件入队提前处理<br>
                 2. 新增addTask文件转换入队接口<br>
-                3. 采用redis队列，支持kkFIleView接口和异构系统入队两种方式
+                3. 采用redis队列，支持mimiFileView接口和异构系统入队两种方式
             </div>
         </div>
     </div>
@@ -469,7 +468,7 @@
         <div class="panel-body">
             <div>
                 1. 项目gitee开源:<a href="https://gitee.com/kekingcn/file-online-preview" target="_blank">https://gitee.com/kekingcn/file-online-preview</a><br>
-                2. 项目github开源:<a href="https://github.com/kekingcn/kkFileView" target="_blank">https://github.com/kekingcn/kkFileView</a>
+                2. 项目github开源:<a href="https://github.com/kekingcn/mimiFileView" target="_blank">https://github.com/kekingcn/mimiFileView</a>
             </div>
         </div>
     </div>

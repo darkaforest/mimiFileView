@@ -22,8 +22,8 @@ stages:
           - name: BUILD_ARTIFACT
             # 构建产物获取路径，是指代码编译完毕之后构建物的所在路径，如通常jar包在target目录下。当前目录为代码库根目录
             path:
-              - ./server/target/kkFileView-*.tar.gz
-              - ./server/target/kkFileView-*.zip
+              - ./server/target/mimiFileView-*.tar.gz
+              - ./server/target/mimiFileView-*.zip
 triggers:
   push:
     branches:
