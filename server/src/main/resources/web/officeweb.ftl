@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <title>${file.name}预览</title>
-    <link rel='stylesheet' href='xlsx/plugins/css/pluginsCss.css' />
-    <link rel='stylesheet' href='xlsx/plugins/plugins.css' />
-    <link rel='stylesheet' href='xlsx/css/luckysheet.css' />
-    <link rel='stylesheet' href='xlsx/assets/iconfont/iconfont.css' />
+    <link rel='stylesheet' href='proxyfile-preview/xlsx/plugins/css/pluginsCss.css' />
+    <link rel='stylesheet' href='proxyfile-preview/xlsx/plugins/plugins.css' />
+    <link rel='stylesheet' href='proxyfile-preview/xlsx/css/luckysheet.css' />
+    <link rel='stylesheet' href='proxyfile-preview/xlsx/assets/iconfont/iconfont.css' />
     <script src="proxyfile-preview/xlsx/plugins/js/plugin.js"></script>
     <script src="proxyfile-preview/xlsx/luckysheet.umd.js"></script>
     <script src="proxyfile-preview/js/watermark.js" type="text/javascript"></script>
