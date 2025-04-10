@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <title>代码预览</title>
     <#include  "*/commonHeader.ftl">
     <script src="proxyfile-preview/js/jquery-3.6.1.min.js" type="text/javascript"></script>

@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <title>${file.name}预览</title>
     <link rel='stylesheet' href='xlsx/plugins/css/pluginsCss.css' />
     <link rel='stylesheet' href='xlsx/plugins/plugins.css' />

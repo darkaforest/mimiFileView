@@ -5,6 +5,7 @@
 <title>${file.name}文件预览</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <#include "*/commonHeader.ftl">
    <script src="proxyfile-preview/js/base64.min.js" type="text/javascript"></script>
    <script src="proxyfile-preview/js/jszip.min.js"></script>

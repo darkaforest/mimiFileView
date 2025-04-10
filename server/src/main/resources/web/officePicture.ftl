@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>PDF图片预览</title>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <#include "*/commonHeader.ftl">
     <script src="proxyfile-preview/js/lazyload.js"></script>
     <style>

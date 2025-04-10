@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8" />
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 <title>${file.name}预览</title>
 <#include "*/commonHeader.ftl">
 <link rel="stylesheet" href="proxyfile-preview/xspreadsheet/xspreadsheet.css"/>

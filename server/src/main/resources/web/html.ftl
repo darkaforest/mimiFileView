@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <title>文件预览</title>
     <#include "*/commonHeader.ftl">
     <#include "*/needFilePasswordHeader.ftl">

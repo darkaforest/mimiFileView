@@ -4,6 +4,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
     <title>markdown文本预览</title>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <#include "*/commonHeader.ftl">
     <script src="proxyfile-preview/js/jquery-3.6.1.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="proxyfile-preview/bootstrap/css/bootstrap.min.css"/>

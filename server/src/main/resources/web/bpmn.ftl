@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <#include "*/commonHeader.ftl">
       <script src="proxyfile-preview/js/base64.min.js" type="text/javascript"></script>
       	<#if currentUrl?contains("http://") || currentUrl?contains("https://") || currentUrl?contains("file://")>

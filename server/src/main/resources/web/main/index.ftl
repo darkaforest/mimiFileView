@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <title>mimiFileView演示首页</title>
     <link rel="icon" href="./proxyfile-preview/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="proxyfile-preview/css/loading.css"/>

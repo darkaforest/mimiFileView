@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <title>图片预览</title>
     <#include "*/commonHeader.ftl">
     <link rel="stylesheet" href="proxyfile-preview/css/viewer.min.css">

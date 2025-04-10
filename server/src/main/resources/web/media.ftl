@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>${file.name}播放器</title>
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 		<link type="text/css" rel="stylesheet" href="proxyfile-preview/ckplayer/css/ckplayer.css" />
 		<#if "${file.suffix?lower_case}" == "m3u8" >
 		<script type="text/javascript" src="proxyfile-preview/ckplayer/hls.js/hls.min.js"></script>

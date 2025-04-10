@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <title>${file.name}压缩包预览</title>
    <script src="proxyfile-preview/js/jquery-3.6.1.min.js"></script>
      <#include "*/commonHeader.ftl">
