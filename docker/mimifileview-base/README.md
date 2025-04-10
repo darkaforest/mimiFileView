@@ -10,7 +10,7 @@
 > 这里镜像 tag 以 4.4.0 为例，本项目所维护的 Dockerfile 文件考虑了跨平台兼容性。 如果你需要用到 arm64 架构镜像, 则在arm64 架构机器上同样执行下面的构建命令即可
 
 ```shell
-docker build --tag darkaforest/mimifileview-base:4.4.0 .
+docker build --tag darkaforest/mimifileview-base:4.4.0-wrapper-1.0.0 .
 ```
 
 
