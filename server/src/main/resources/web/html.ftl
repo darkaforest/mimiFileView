@@ -10,7 +10,12 @@
     <#include "*/needFilePasswordHeader.ftl">
 </head>
 <body>
-<iframe src="${pdfUrl}" width="100%" frameborder="0"></iframe>
+<#if pdfUrl?contains("http://") || pdfUrl?contains("https://")>
+    <#assign finalUrl="${pdfUrl}">
+<#else>
+    <#assign finalUrl="${baseUrl}${pdfUrl}">
+</#if>
+<iframe src="${finalUrl}" width="100%" frameborder="0"></iframe>
 </body>
 
 <script type="text/javascript">
